@@ -1,0 +1,104 @@
+[
+  {
+    "column_names": [
+      [
+        -1,
+        "*"
+      ],
+      [
+        0,
+        "timestamp"
+      ],
+      [
+        0,
+        "ip"
+      ],
+      [
+        0,
+        "cpu util"
+      ],
+      [
+        1,
+        "timestamp"
+      ],
+      [
+        1,
+        "ip"
+      ],
+      [
+        1,
+        "memory"
+      ],
+      [
+        2,
+        "microservice"
+      ],
+      [
+        2,
+        "ip"
+      ]
+    ],
+    "column_names_original": [
+      [
+        -1,
+        "*"
+      ],
+      [
+        0,
+        "timestamp"
+      ],
+      [
+        0,
+        "ip"
+      ],
+      [
+        0,
+        "cpu_util"
+      ],
+      [
+        1,
+        "timestamp"
+      ],
+      [
+        1,
+        "ip"
+      ],
+      [
+        1,
+        "memory"
+      ],
+      [
+        2,
+        "microservice"
+      ],
+      [
+        2,
+        "ip"
+      ]
+    ],
+    "column_types": [
+      "text",
+      "text",
+      "text",
+      "number",
+      "text",
+      "text",
+      "number",
+      "text",
+      "text"
+    ],
+    "db_id": "benchmark_2",
+    "foreign_keys": [],
+    "primary_keys": [],
+    "table_names": [
+      "cpu",
+      "memory",
+      "microservice"
+    ],
+    "table_names_original": [
+      "cpu",
+      "memory",
+      "microservice"
+    ]
+  }
+]

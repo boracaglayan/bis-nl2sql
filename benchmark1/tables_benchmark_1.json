@@ -1,0 +1,252 @@
+[
+  {
+    "column_names": [
+      [
+        -1,
+        "*"
+      ],
+      [
+        0,
+        "date"
+      ],
+      [
+        0,
+        "task id"
+      ],
+      [
+        0,
+        "avg ctr"
+      ],
+      [
+        0,
+        "avg cvr"
+      ],
+      [
+        0,
+        "avg unit price"
+      ],
+      [
+        0,
+        "avg ecpm"
+      ],
+      [
+        1,
+        "filter key zh"
+      ],
+      [
+        1,
+        "filter key"
+      ],
+      [
+        1,
+        "filter key en"
+      ],
+      [
+        1,
+        "filter stage"
+      ],
+      [
+        1,
+        "filter stage zh"
+      ],
+      [
+        1,
+        "filter type zh"
+      ],
+      [
+        2,
+        "filter key"
+      ],
+      [
+        2,
+        "timestamp"
+      ],
+      [
+        2,
+        "task"
+      ],
+      [
+        3,
+        "date"
+      ],
+      [
+        3,
+        "task id"
+      ],
+      [
+        3,
+        "avg ctr"
+      ],
+      [
+        3,
+        "avg cvr"
+      ],
+      [
+        3,
+        "avg unit price"
+      ],
+      [
+        3,
+        "avg ecpm"
+      ],
+      [
+        4,
+        "date"
+      ],
+      [
+        4,
+        "request id"
+      ],
+      [
+        4,
+        "task id"
+      ]
+    ],
+    "column_names_original": [
+      [
+        -1,
+        "*"
+      ],
+      [
+        0,
+        "date"
+      ],
+      [
+        0,
+        "task_id"
+      ],
+      [
+        0,
+        "avg_ctr"
+      ],
+      [
+        0,
+        "avg_cvr"
+      ],
+      [
+        0,
+        "avg_unit_price"
+      ],
+      [
+        0,
+        "avg_ecpm"
+      ],
+      [
+        1,
+        "filter_key_zh"
+      ],
+      [
+        1,
+        "filter_key"
+      ],
+      [
+        1,
+        "filter_key_en"
+      ],
+      [
+        1,
+        "filter_stage"
+      ],
+      [
+        1,
+        "filter_stage_zh"
+      ],
+      [
+        1,
+        "filter_type_zh"
+      ],
+      [
+        2,
+        "filter_key"
+      ],
+      [
+        2,
+        "timestamp"
+      ],
+      [
+        2,
+        "task"
+      ],
+      [
+        3,
+        "date"
+      ],
+      [
+        3,
+        "task_id"
+      ],
+      [
+        3,
+        "avg_ctr"
+      ],
+      [
+        3,
+        "avg_cvr"
+      ],
+      [
+        3,
+        "avg_unit_price"
+      ],
+      [
+        3,
+        "avg_ecpm"
+      ],
+      [
+        4,
+        "date"
+      ],
+      [
+        4,
+        "request_id"
+      ],
+      [
+        4,
+        "task_id"
+      ]
+    ],
+    "column_types": [
+      "text",
+      "text",
+      "text",
+      "number",
+      "number",
+      "number",
+      "number",
+      "text",
+      "text",
+      "text",
+      "text",
+      "text",
+      "text",
+      "text",
+      "text",
+      "text",
+      "text",
+      "text",
+      "number",
+      "number",
+      "number",
+      "number",
+      "text",
+      "text",
+      "text"
+    ],
+    "db_id": "benchmark_1",
+    "foreign_keys": [],
+    "primary_keys": [],
+    "table_names": [
+      "predicted_metric_log",
+      "pre_ranking_filter_key_mapping",
+      "pre_ranking_filter_log",
+      "real_metric_log",
+      "request_log"
+    ],
+    "table_names_original": [
+      "predicted_metric_log",
+      "pre_ranking_filter_key_mapping",
+      "pre_ranking_filter_log",
+      "real_metric_log",
+      "request_log"
+    ]
+  }
+]

@@ -1,0 +1,1465 @@
+[
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task=342111 and filter_key = 'o_rta_filter'",
+    "question": "任务342111的RTA过滤次数？",
+    "language": "zh",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task=342111 and filter_key = 'o_rta_filter'",
+    "question": "RTA filtering count for task 342111？",
+    "language": "en",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task=342111 and filter_key = 'o_rta_filter'",
+    "question": "count RTA filtering of the task 342111？",
+    "language": "en",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task=342111 and (filter_key = 'o_rta_filter' or filter_key = 'o_score_rank')",
+    "question": "任务342111的RTA和score_rank的过滤次数？",
+    "language": "zh",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task=342111 and (filter_key = 'o_rta_filter' or filter_key = 'o_score_rank')",
+    "question": "任务342111的RTA和分数的过滤次数？",
+    "language": "zh",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task=342111 and (filter_key = 'o_rta_filter' or filter_key = 'o_score_rank')",
+    "question": "RTA and score_rank filtering count for task 342111？",
+    "language": "en",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task=342111 and (filter_key = 'o_rta_filter' or filter_key = 'o_score_rank')",
+    "question": "count RTA and score_rank filtering of the task 342111？",
+    "language": "en",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where filter_key='o_rta_filter' and (task=342111 or task=342112)",
+    "question": "任务342111或342112的RTA过滤次数",
+    "language": "zh",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where filter_key='o_rta_filter' and (task=342111 or task=342112)",
+    "question": "RTA filtering count for task 342111 or 342112？",
+    "language": "en",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT avg_cvr FROM predicted_metric_log WHERE task_id = 342111",
+    "question": "任务342111的cvr",
+    "language": "zh",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT avg_cvr FROM predicted_metric_log WHERE task_id = 342111",
+    "question": "任务342111的avg_cvr",
+    "language": "zh",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT avg_cvr FROM predicted_metric_log WHERE task_id = 342111",
+    "question": "avg_cvr of task 342111 ",
+    "language": "en",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT avg_cvr FROM predicted_metric_log WHERE task_id = 342111",
+    "question": "cvr of task 342111 ",
+    "language": "en",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task = 342111 and (date(timestamp)='2023-01-12' or date(timestamp)='2023-01-13')",
+    "question": "1月12日和13日任务342111的过滤次数",
+    "language": "zh",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task = 342111 and (date(timestamp)='2023-01-12' or date(timestamp)='2023-01-13')",
+    "question": "任务342111， 1月12日和13日的过滤次数",
+    "language": "zh",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task = 342111 and (date(timestamp)='2023-01-12' or date(timestamp)='2023-01-13')",
+    "question": "filter count for task 342111 for 12nd and 13rd Jan",
+    "language": "en",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task = 342111 and (date(timestamp)='2023-01-12' or date(timestamp)='2023-01-13')",
+    "question": "12nd and 13rd Jan, filter count for task 342111 ",
+    "language": "en",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task IN (342111, 342112)",
+    "question": "任务342111和342112过滤总次数",
+    "language": "zh",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task IN (342111, 342112)",
+    "question": "filter count for task 342111 and 342112",
+    "language": "en",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task IN (342111, 342112)",
+    "question": "count filter for task 342111 and 342112",
+    "language": "en",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task IN (342111, 342112)",
+    "question": "count filter for task 342111 or 342112",
+    "language": "en",
+    "case_type": "filtering"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) as '342111' from pre_ranking_filter_log where task=342111 and filter_key='o_creative_size' and date(timestamp)='2023-01-12'",
+    "question": "1月12日任务342111尺寸不匹配过的滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) as '342111' from pre_ranking_filter_log where task=342111 and filter_key='o_creative_size' and date(timestamp)='2023-01-12'",
+    "question": "count creative size filter for task 342111 on 12 January",
+    "language": "en",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) as '342111' from pre_ranking_filter_log where task=342111 and filter_key='o_creative_size' and date(timestamp)='2023-01-12'",
+    "question": "count creative size filter for task 342111 on 12th January",
+    "language": "en",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) as '342111' from pre_ranking_filter_log where task=342111 and filter_key='o_creative_size' and date(timestamp)='2023-01-12'",
+    "question": "count creative size filter for task 342111 on 12-01",
+    "language": "en",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) as '342111' from pre_ranking_filter_log where task=342111 and filter_key='o_creative_size' and date(timestamp)=date('now', '-1 day')",
+    "question": "任务342111昨天尺寸不匹配过的滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) as '342111' from pre_ranking_filter_log where task=342111 and filter_key='o_creative_size' and date(timestamp)=date('now', '-1 day')",
+    "question": "count creative size filter for task 342111 yesterday",
+    "language": "en",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task=342111 and date(timestamp)=date('now', '-2 day')",
+    "question": "任务342111前天的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task=342111 and date(timestamp)=date('now', '-2 day')",
+    "question": "前天任务342111的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task=342111 and date(timestamp)=date('now', '-2 day')",
+    "question": "昨天前一天任务342111的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) from pre_ranking_filter_log where task=342111 and date(timestamp)=date('now', '-2 day')",
+    "question": "count filter of task 342111 on the day before yesterday",
+    "language": "en",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) = '2023-01-13'",
+    "question": "任务342111上周5的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) = '2023-01-13'",
+    "question": "上周5任务342111的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) = '2023-01-13'",
+    "question": "count filter for task 342111 last Friday",
+    "language": "en",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND timestamp >= '2023-01-09' AND timestamp < '2023-01-16'",
+    "question": "任务342111上周的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND timestamp >= '2023-01-09' AND timestamp < '2023-01-16'",
+    "question": "上周任务342111的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND timestamp >= '2023-01-09' AND timestamp < '2023-01-16'",
+    "question": "count filter for task 342111 last week",
+    "language": "en",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND timestamp >= '2023-01-09' AND timestamp < '2023-01-16'",
+    "question": "task 342111 filter count last week",
+    "language": "en",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= date('2023-01-02') AND date(timestamp) < date('2023-01-16')",
+    "question": "任务342111上周和大上周的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= date('2023-01-02') AND date(timestamp) < date('2023-01-16')",
+    "question": "上周和大上周任务342111的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= date('2023-01-02') AND date(timestamp) < date('2023-01-16')",
+    "question": "大上周和上周任务342111的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= date('2023-01-02') AND date(timestamp) < date('2023-01-16')",
+    "question": "count filter for task 342111 the last week and the week before last week",
+    "language": "en",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= date('2023-01-02') AND date(timestamp) < date('2023-01-16')",
+    "question": "count filter for task 342111 the week before last week and the last week",
+    "language": "en",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342112 AND date(timestamp) >= date('2023-01-12') and date(timestamp) < date('2023-01-17')",
+    "question": "任务342112过去5天的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342112 AND date(timestamp) >= date('2023-01-12') and date(timestamp) < date('2023-01-17')",
+    "question": "过去5天任务342112的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342112 AND date(timestamp) >= date('2023-01-12') and date(timestamp) < date('2023-01-17')",
+    "question": "头5天任务342112的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342112 AND date(timestamp) >= date('2023-01-12') and date(timestamp) < date('2023-01-17')",
+    "question": "count filter for task 342112 for last 5 days ",
+    "language": "en",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342112 AND date(timestamp) >= date('2023-01-12') and date(timestamp) < date('2023-01-17')",
+    "question": "count filter for task 342112 for last 5 days before today",
+    "language": "en",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= date('2023-01-02') AND date(timestamp) < date('2023-01-16')",
+    "question": "任务342111上2周的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= date('2023-01-02') AND date(timestamp) < date('2023-01-16')",
+    "question": "上2周任务342111的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= date('2023-01-02') AND date(timestamp) < date('2023-01-16')",
+    "question": "头2周任务342111的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= date('2023-01-02') AND date(timestamp) < date('2023-01-16')",
+    "question": "过去两周任务342111的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= date('2023-01-02') AND date(timestamp) < date('2023-01-16')",
+    "question": "count filter for task 342111 last 2 weeks",
+    "language": "en",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= date('2023-01-02') AND date(timestamp) < date('2023-01-16')",
+    "question": "count filter for task 342111 in last 2 weeks",
+    "language": "en",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= DATE('2023-01-16')",
+    "question": "任务342111这周的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= DATE('2023-01-16')",
+    "question": "这一周任务342111的过滤次数",
+    "language": "zh",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= DATE('2023-01-16')",
+    "question": "count filter for task 342111 this week",
+    "language": "en",
+    "case_type": "time_period"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*) as \"342111\", (select count(*) from pre_ranking_filter_log where task=342112) as \"342112\" from pre_ranking_filter_log where task = 342111",
+    "question": "比较任务342111和342112的RTA过滤次数？",
+    "language": "zh",
+    "case_type": "comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "With t1 as (select count(*) as \"342111\" from pre_ranking_filter_log where task = 342111), t2 as (select count(*) as \"342112\" from pre_ranking_filter_log where task = 342112) select * from t1, t2",
+    "question": "任务342111和342112的RTA过滤次数对比？",
+    "language": "zh",
+    "case_type": "comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "With t1 as (select count(*) as \"342111\" from pre_ranking_filter_log where task = 342111), t2 as (select count(*) as \"342112\" from pre_ranking_filter_log where task = 342112) select * from t1, t2",
+    "question": "compare RTA filter for task 342111 and 342112？",
+    "language": "en",
+    "case_type": "comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select count(*) as task_342111 from pre_ranking_filter_log where task=342111 and filter_key = 'o_rta_filter'), t2 as (select count(*) as task_342112 from pre_ranking_filter_log where task=342112 and filter_key = 'o_rta_filter') select task_342111 - task_342112 from t1, t2",
+    "question": "任务342111和342112的RTA过滤次数相差多少？",
+    "language": "zh",
+    "case_type": "comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select count(*) as task_342111 from pre_ranking_filter_log where task=342111 and filter_key = 'o_rta_filter'), t2 as (select count(*) as task_342112 from pre_ranking_filter_log where task=342112 and filter_key = 'o_rta_filter') select task_342111 - task_342112 from t1, t2",
+    "question": "任务342111的RTA过滤次数比任务342112的差多少？",
+    "language": "zh",
+    "case_type": "comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select count(*) as task_342111 from pre_ranking_filter_log where task=342111 and filter_key = 'o_rta_filter'), t2 as (select count(*) as task_342112 from pre_ranking_filter_log where task=342112 and filter_key = 'o_rta_filter') select task_342111 - task_342112 from t1, t2",
+    "question": "任务342111的RTA过滤次数比342112的差多少？",
+    "language": "zh",
+    "case_type": "comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select count(*) as task_342111 from pre_ranking_filter_log where task=342111 and filter_key = 'o_rta_filter'), t2 as (select count(*) as task_342112 from pre_ranking_filter_log where task=342112 and filter_key = 'o_rta_filter') select task_342111 - task_342112 from t1, t2",
+    "question": "what is the difference of RTA filter between task 342111 and 342112？",
+    "language": "en",
+    "case_type": "comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select count(*) as task_342111 from pre_ranking_filter_log where task=342111 and filter_key = 'o_rta_filter'), t2 as (select count(*) as task_342112 from pre_ranking_filter_log where task=342112 and filter_key = 'o_rta_filter') select task_342111 - task_342112 from t1, t2",
+    "question": "count the difference of RTA filter between task 342111 and 342112？",
+    "language": "en",
+    "case_type": "comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "With t1 as (select count(*) as '01-12' from pre_ranking_filter_log where task = 342111 and date(timestamp)='2023-01-12'), t2 as (select count(*) as '01-13' from pre_ranking_filter_log where task=342111 and date(timestamp)='2023-01-13') select * from t1, t2",
+    "question": "对比1月12日和13日任务342111的过滤次数",
+    "language": "zh",
+    "case_type": "comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "With t1 as (select count(*) as '01-12' from pre_ranking_filter_log where task = 342111 and date(timestamp)='2023-01-12'), t2 as (select count(*) as '01-13' from pre_ranking_filter_log where task=342111 and date(timestamp)='2023-01-13') select * from t1, t2",
+    "question": "任务342111过滤次数1月12日和13日的对比",
+    "language": "zh",
+    "case_type": "comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "With t1 as (select count(*) as '01-12' from pre_ranking_filter_log where task = 342111 and date(timestamp)='2023-01-12'), t2 as (select count(*) as '01-13' from pre_ranking_filter_log where task=342111 and date(timestamp)='2023-01-13') select * from t1, t2",
+    "question": "compare filter count for task 342111 between 12nd and 13rd Jan",
+    "language": "en",
+    "case_type": "comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "With t1 as (select count(*) as '01-12' from pre_ranking_filter_log where task = 342111 and date(timestamp)='2023-01-12'), t2 as (select count(*) as '01-13' from pre_ranking_filter_log where task=342111 and date(timestamp)='2023-01-13') select * from t1, t2",
+    "question": "compare 12nd and 13rd Jan of filter count for task 342111 ",
+    "language": "en",
+    "case_type": "comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select date(date), avg_cvr from predicted_metric_log where task_id=342111 and (strftime('%Y-%m-%d', date)='2023-01-12' or strftime('%Y-%m-%d', date)='2023-01-13')",
+    "question": "对比1月12日和13日任务342111的预估cvr",
+    "language": "zh",
+    "case_type": "comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT DATE(\"predicted_metric_log\".\"date\") AS \"_col_0\", \"predicted_metric_log\".\"avg_cvr\" AS \"avg_cvr\" FROM \"predicted_metric_log\" AS \"predicted_metric_log\" WHERE \"predicted_metric_log\".\"task_id\" = 342111 AND DATE(\"predicted_metric_log\".\"date\") IN ('2023-01-12', '2023-01-13')",
+    "question": "任务342111预估转化率1月12日和13日的对比",
+    "language": "zh",
+    "case_type": "comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT DATE(\"predicted_metric_log\".\"date\") AS \"_col_0\", \"predicted_metric_log\".\"avg_cvr\" AS \"avg_cvr\" FROM \"predicted_metric_log\" AS \"predicted_metric_log\" WHERE \"predicted_metric_log\".\"task_id\" = 342111 AND DATE(\"predicted_metric_log\".\"date\") IN ('2023-01-12', '2023-01-13')",
+    "question": "compare predicted cvr for task 342111 between 12nd and 13rd Jan",
+    "language": "en",
+    "case_type": "comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT DATE(\"predicted_metric_log\".\"date\") AS \"_col_0\", \"predicted_metric_log\".\"avg_cvr\" AS \"avg_cvr\" FROM \"predicted_metric_log\" AS \"predicted_metric_log\" WHERE \"predicted_metric_log\".\"task_id\" = 342111 AND DATE(\"predicted_metric_log\".\"date\") IN ('2023-01-12', '2023-01-13')",
+    "question": "compare 12nd and 13rd Jan of predicted cvr for task 342111 ",
+    "language": "en",
+    "case_type": "comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d', timestamp) AS day, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND timestamp >= DATE('now', 'weekday 0') GROUP BY day",
+    "question": "任务342111这周每天的过滤次数",
+    "language": "zh",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d', timestamp) AS day, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= '2023-01-16' GROUP BY day",
+    "question": "这一周任务342111每天的过滤次数",
+    "language": "zh",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d', timestamp) AS day, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= '2023-01-16' GROUP BY day",
+    "question": "daily count filter for task 342111 this week",
+    "language": "en",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d', timestamp) AS day, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= '2023-01-16' GROUP BY day",
+    "question": "count filter for task 342111 this week group by day",
+    "language": "en",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d %H', timestamp) AS hour, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) = '2023-01-16' GROUP BY hour",
+    "question": "昨天，任务342111每小时过滤统计",
+    "language": "zh",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d %H', timestamp) AS hour, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) = '2023-01-16' GROUP BY hour",
+    "question": "任务342111昨天每小时过滤次数",
+    "language": "zh",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d %H', timestamp) AS hour, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) = '2023-01-16' GROUP BY hour",
+    "question": "hourly count filter for task 342111 yesterday",
+    "language": "en",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d %H', timestamp) AS hour, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) = '2023-01-16' GROUP BY hour",
+    "question": "count filter for task 342111 yesterday group by hourly",
+    "language": "en",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d', timestamp) AS day, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= '2023-01-02' AND date(timestamp) < '2023-01-16' GROUP BY day",
+    "question": "任务342111上2周的每天过滤次数",
+    "language": "zh",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d', timestamp) AS day, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= '2023-01-02' AND date(timestamp) < '2023-01-16' GROUP BY day",
+    "question": "上2周任务342111的每天过滤次数",
+    "language": "zh",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d', timestamp) AS day, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= '2023-01-02' AND date(timestamp) < '2023-01-16' GROUP BY day",
+    "question": "前2周每天任务342111的过滤次数",
+    "language": "zh",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d', timestamp) AS day, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= '2023-01-02' AND date(timestamp) < '2023-01-16' GROUP BY day",
+    "question": "过去两周任务342111每天的过滤次数",
+    "language": "zh",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d', timestamp) AS day, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= '2023-01-02' AND date(timestamp) < '2023-01-16' GROUP BY day",
+    "question": "daily count filter for task 342111 last 2 weeks",
+    "language": "en",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d', timestamp) AS day, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) >= '2023-01-02' AND date(timestamp) < '2023-01-16' GROUP BY day",
+    "question": "count filter pre day for task 342111 in last 2 weeks",
+    "language": "en",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d', timestamp) AS day, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND timestamp >= '2023-01-09' AND date(timestamp) < '2023-01-16' GROUP BY day",
+    "question": "任务342111上周过滤次数的趋势",
+    "language": "zh",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d', timestamp) AS day, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND timestamp >= '2023-01-09' AND date(timestamp) < '2023-01-16' GROUP BY day",
+    "question": "上周任务342111的过滤次数趋势",
+    "language": "zh",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d', timestamp) AS day, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND timestamp >= '2023-01-09' AND date(timestamp) < '2023-01-16' GROUP BY day",
+    "question": "前一周每天任务342111的过滤次数趋势",
+    "language": "zh",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT strftime('%Y-%m-%d', timestamp) AS day, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND timestamp >= '2023-01-09' AND date(timestamp) < '2023-01-16' GROUP BY day",
+    "question": "filter count trend for task 342111 in the last week",
+    "language": "en",
+    "case_type": "trend"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "with t1 as (SELECT strftime('%Y-%m-%d', timestamp) as day, strftime('%w', timestamp) as weekday, ((strftime('%d', timestamp) + 5) / 7) as week, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND timestamp >= date('2023-01-16') GROUP BY day) select weekday, MAX(CASE WHEN week = 2 THEN day ELSE NULL END) as t1_day, MAX(CASE WHEN week = 2 THEN count ELSE NULL END) as t1_count, MAX(CASE WHEN week = 3 THEN day ELSE NULL END) as t2_day, MAX(CASE WHEN week = 3 THEN count ELSE NULL END) as t2_count from t1 group by weekday order by weekday",
+    "question": "比较这周和上周任务342111每天的过滤次数",
+    "language": "zh",
+    "case_type": "trend_comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "with t1 as (SELECT strftime('%Y-%m-%d', timestamp) as day, strftime('%w', timestamp) as weekday, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND timestamp >= date('2023-01-16') GROUP BY day ), t2 as (SELECT strftime('%Y-%m-%d', timestamp) as day, strftime('%w', timestamp) as weekday, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND timestamp >= date('2023-01-09') and timestamp < date('2023-01-16') GROUP BY day) select coalesce(t1.weekday, t2.weekday) as weekday, t1.day as t1_day, t1.count as t1_count, t2.day as t2_day, t2.count as t2_count from t1 full outer join t2 on t1.weekday = t2.weekday order by weekday",
+    "question": "这周和上周任务342111每天的过滤次数对比",
+    "language": "zh",
+    "case_type": "trend_comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "with t1 as (SELECT strftime('%Y-%m-%d', timestamp) as day, strftime('%w', timestamp) as weekday, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND timestamp >= date('2023-01-16') GROUP BY day ), t2 as (SELECT strftime('%Y-%m-%d', timestamp) as day, strftime('%w', timestamp) as weekday, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND timestamp >= date('2023-01-09') and timestamp < date('2023-01-16') GROUP BY day) select coalesce(t1.weekday, t2.weekday) as weekday, t1.day as t1_day, t1.count as t1_count, t2.day as t2_day, t2.count as t2_count from t1 full outer join t2 on t1.weekday = t2.weekday order by weekday",
+    "question": "Comparison of daily filtering times of task 342111 this week and last week",
+    "language": "en",
+    "case_type": "trend_comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "with t1 as (SELECT strftime('%Y-%m-%d', timestamp) as day, strftime('%w', timestamp) as weekday, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND timestamp >= date('2023-01-16') GROUP BY day ), t2 as (SELECT strftime('%Y-%m-%d', timestamp) as day, strftime('%w', timestamp) as weekday, COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = 342111 AND timestamp >= date('2023-01-09') and timestamp < date('2023-01-16') GROUP BY day) select coalesce(t1.weekday, t2.weekday) as weekday, t1.day as t1_day, t1.count as t1_count, t2.day as t2_day, t2.count as t2_count from t1 full outer join t2 on t1.weekday = t2.weekday order by weekday",
+    "question": "daily filtering count of task 342111, compare this week and last week",
+    "language": "en",
+    "case_type": "trend_comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "with t1 as (SELECT COUNT(*) AS filter_count, strftime('%H', timestamp) as hour, strftime('%Y-%m-%d', timestamp) as day FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) = date('now') group by hour), t2 as (SELECT COUNT(*) AS filter_count, strftime('%H', timestamp) as hour, strftime('%Y-%m-%d', timestamp) as day FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) = date('now','-7 days') group by hour) select coalesce(t1.hour, t2.hour) as hour, t1.day as t1_day, t1.filter_count as t1_count, t2.day as t2_day, t2.filter_count as t2_count from t1 full outer join t2 on t1.hour = t2.hour order by hour",
+    "question": "今天的任务342111每小时过滤次数和上周同比",
+    "language": "zh",
+    "case_type": "trend_comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "with t1 as (SELECT COUNT(*) AS filter_count, strftime('%H', timestamp) as hour, strftime('%Y-%m-%d', timestamp) as day FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) in (date('now'), date('now','-7 days')) group by day, hour) select hour, MAX(CASE WHEN day = date('now') THEN day ELSE NULL END) as t1_day, MAX(CASE WHEN day = date('now') THEN filter_count ELSE NULL END) as t1_count, MAX(CASE WHEN day = date('now','-7 days') THEN day ELSE NULL END) as t2_day, MAX(CASE WHEN day = date('now','-7 days') THEN filter_count ELSE NULL END) as t2_count from t1 group by hour order by hour",
+    "question": "任务342111每小时过滤次数今天和上周同比",
+    "language": "zh",
+    "case_type": "trend_comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "with t1 as (SELECT COUNT(*) AS filter_count, strftime('%H', timestamp) as hour, strftime('%Y-%m-%d', timestamp) as day FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) in (date('now'), date('now','-7 days')) group by day, hour) select hour, MAX(CASE WHEN day = date('now') THEN day ELSE NULL END) as t1_day, MAX(CASE WHEN day = date('now') THEN filter_count ELSE NULL END) as t1_count, MAX(CASE WHEN day = date('now','-7 days') THEN day ELSE NULL END) as t2_day, MAX(CASE WHEN day = date('now','-7 days') THEN filter_count ELSE NULL END) as t2_count from t1 group by hour order by hour",
+    "question": "和上周同比，今天每小时任务342111的过滤次数",
+    "language": "zh",
+    "case_type": "trend_comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "with t1 as (SELECT COUNT(*) AS filter_count, strftime('%H', timestamp) as hour, strftime('%Y-%m-%d', timestamp) as day FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) in (date('now'), date('now','-7 days')) group by day, hour) select hour, MAX(CASE WHEN day = date('now') THEN day ELSE NULL END) as t1_day, MAX(CASE WHEN day = date('now') THEN filter_count ELSE NULL END) as t1_count, MAX(CASE WHEN day = date('now','-7 days') THEN day ELSE NULL END) as t2_day, MAX(CASE WHEN day = date('now','-7 days') THEN filter_count ELSE NULL END) as t2_count from t1 group by hour order by hour",
+    "question": "任务342111今天每小时的过滤次数和上周同比",
+    "language": "zh",
+    "case_type": "trend_comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "with t1 as (SELECT COUNT(*) AS filter_count, strftime('%H', timestamp) as hour, strftime('%Y-%m-%d', timestamp) as day FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) in (date('now'), date('now','-7 days')) group by day, hour) select hour, MAX(CASE WHEN day = date('now') THEN day ELSE NULL END) as t1_day, MAX(CASE WHEN day = date('now') THEN filter_count ELSE NULL END) as t1_count, MAX(CASE WHEN day = date('now','-7 days') THEN day ELSE NULL END) as t2_day, MAX(CASE WHEN day = date('now','-7 days') THEN filter_count ELSE NULL END) as t2_count from t1 group by hour order by hour",
+    "question": "compare hourly filter count of task 342111 today with the same period last week ",
+    "language": "en",
+    "case_type": "trend_comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "with t1 as (SELECT COUNT(*) AS filter_count, strftime('%H', timestamp) as hour, strftime('%Y-%m-%d', timestamp) as day FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) in (date('now'), date('now','-7 days')) group by day, hour) select hour, MAX(CASE WHEN day = date('now') THEN day ELSE NULL END) as t1_day, MAX(CASE WHEN day = date('now') THEN filter_count ELSE NULL END) as t1_count, MAX(CASE WHEN day = date('now','-7 days') THEN day ELSE NULL END) as t2_day, MAX(CASE WHEN day = date('now','-7 days') THEN filter_count ELSE NULL END) as t2_count from t1 group by hour order by hour",
+    "question": "Hourly filter count of task 342111 today, compare with the same period last week",
+    "language": "en",
+    "case_type": "trend_comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "with t1 as (SELECT COUNT(*) AS filter_count, strftime('%H', timestamp) as hour, strftime('%Y-%m-%d', timestamp) as day FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) = date('now') group by hour), t2 as (SELECT COUNT(*) AS filter_count, strftime('%H', timestamp) as hour, strftime('%Y-%m-%d', timestamp) as day FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) = date('now','-1 days') group by hour) select coalesce(t1.hour, t2.hour) as hour, t1.day as t1_day, t1.filter_count as t1_count, t2.day as t2_day, t2.filter_count as t2_count from t1 full outer join t2 on t1.hour = t2.hour order by hour",
+    "question": "任务342111每小时过滤次数和昨天对比",
+    "language": "zh",
+    "case_type": "trend_comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "with t1 as (SELECT COUNT(*) AS filter_count, strftime('%H', timestamp) as hour, strftime('%Y-%m-%d', timestamp) as day FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) = date('now') group by hour), t2 as (SELECT COUNT(*) AS filter_count, strftime('%H', timestamp) as hour, strftime('%Y-%m-%d', timestamp) as day FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) = date('now','-1 days') group by hour) select coalesce(t1.hour, t2.hour) as hour, t1.day as t1_day, t1.filter_count as t1_count, t2.day as t2_day, t2.filter_count as t2_count from t1 full outer join t2 on t1.hour = t2.hour order by hour",
+    "question": "任务342111的每小时过滤次数和昨天对比",
+    "language": "zh",
+    "case_type": "trend_comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "with t1 as (SELECT COUNT(*) AS filter_count, strftime('%H', timestamp) as hour, strftime('%Y-%m-%d', timestamp) as day FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) = date('now') group by hour), t2 as (SELECT COUNT(*) AS filter_count, strftime('%H', timestamp) as hour, strftime('%Y-%m-%d', timestamp) as day FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) = date('now','-1 days') group by hour) select coalesce(t1.hour, t2.hour) as hour, t1.day as t1_day, t1.filter_count as t1_count, t2.day as t2_day, t2.filter_count as t2_count from t1 full outer join t2 on t1.hour = t2.hour order by hour",
+    "question": "任务 342111，将每小时的过滤计数与昨天进行比较",
+    "language": "zh",
+    "case_type": "trend_comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "with t1 as (SELECT COUNT(*) AS filter_count, strftime('%H', timestamp) as hour, strftime('%Y-%m-%d', timestamp) as day FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) = date('now') group by hour), t2 as (SELECT COUNT(*) AS filter_count, strftime('%H', timestamp) as hour, strftime('%Y-%m-%d', timestamp) as day FROM pre_ranking_filter_log WHERE task = 342111 AND date(timestamp) = date('now','-1 days') group by hour) select coalesce(t1.hour, t2.hour) as hour, t1.day as t1_day, t1.filter_count as t1_count, t2.day as t2_day, t2.filter_count as t2_count from t1 full outer join t2 on t1.hour = t2.hour order by hour",
+    "question": "task 342111, compare hourly filter count with yesterday",
+    "language": "en",
+    "case_type": "trend_comparison"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT filter_key, COUNT(*) as filter_count FROM pre_ranking_filter_log WHERE task = 342111 GROUP BY filter_key",
+    "question": "任务342111每种过滤值的次数",
+    "language": "zh",
+    "case_type": "aggregation_and_group_by"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT filter_key, COUNT(*) as filter_count FROM pre_ranking_filter_log WHERE task = 342111 GROUP BY filter_key",
+    "question": "count each filter key for task 342111",
+    "language": "en",
+    "case_type": "aggregation_and_group_by"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT filter_key, COUNT(*) as filter_count FROM pre_ranking_filter_log WHERE task = 342111 GROUP BY filter_key",
+    "question": "count filter key task 342111 group by filter key",
+    "language": "en",
+    "case_type": "aggregation_and_group_by"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT AVG(avg_cvr) FROM predicted_metric_log WHERE task_id = 342111 and DATE(date) >= '2023-01-16'",
+    "question": "任务342111这周的平均cvr",
+    "language": "zh",
+    "case_type": "aggregation_and_group_by"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT AVG(avg_cvr) FROM predicted_metric_log WHERE task_id = 342111 and DATE(date) >= '2023-01-16'",
+    "question": "这周任务342111的平均cvr",
+    "language": "zh",
+    "case_type": "aggregation_and_group_by"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT AVG(avg_cvr) FROM predicted_metric_log WHERE task_id = 342111 and DATE(date) >= '2023-01-16'",
+    "question": "average cvr of task 342111 this week",
+    "language": "en",
+    "case_type": "aggregation_and_group_by"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT AVG(avg_cvr) FROM predicted_metric_log WHERE task_id = 342111 and DATE(date) >= '2023-01-16'",
+    "question": "what is the average cvr of task 342111 this week",
+    "language": "en",
+    "case_type": "aggregation_and_group_by"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT AVG(avg_cvr) FROM predicted_metric_log WHERE task_id = 342111 and DATE(date) >= '2023-01-16'",
+    "question": "tell me the average cvr of task 342111 this week",
+    "language": "en",
+    "case_type": "aggregation_and_group_by"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT max(avg_cvr) FROM predicted_metric_log WHERE task_id = 342111",
+    "question": "任务342111最大cvr",
+    "language": "zh",
+    "case_type": "aggregation_and_group_by"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT max(avg_cvr) FROM predicted_metric_log WHERE task_id = 342111",
+    "question": "任务342111最大转化率",
+    "language": "zh",
+    "case_type": "aggregation_and_group_by"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT max(avg_cvr) FROM predicted_metric_log WHERE task_id = 342111",
+    "question": "max cvr of task 342111 ",
+    "language": "en",
+    "case_type": "aggregation_and_group_by"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT max(avg_cvr) FROM predicted_metric_log WHERE task_id = 342111",
+    "question": "max Conversion Rate of task 342111 ",
+    "language": "en",
+    "case_type": "aggregation_and_group_by"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT min(avg_cvr) FROM predicted_metric_log WHERE task_id = 342111",
+    "question": "任务342111最小cvr",
+    "language": "zh",
+    "case_type": "aggregation_and_group_by"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT min(avg_cvr) FROM predicted_metric_log WHERE task_id = 342111",
+    "question": "minimal cvr of task 342111 ",
+    "language": "en",
+    "case_type": "aggregation_and_group_by"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT min(avg_cvr) FROM predicted_metric_log WHERE task_id = 342111",
+    "question": "min cvr of task 342111 ",
+    "language": "en",
+    "case_type": "aggregation_and_group_by"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) AS \"count\" FROM \"pre_ranking_filter_log\" AS \"pre_ranking_filter_log\" WHERE \"pre_ranking_filter_log\".\"filter_key\" = 'o_country_target' AND \"pre_ranking_filter_log\".\"task\" = '342111'",
+    "question": "任务342111的国家禁投过滤次数？",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = '342111' AND filter_key = 'o_country_target'",
+    "question": "在任务342111中，国家禁投过滤被应用了多少次？",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = '342111' AND filter_key = 'o_country_target'",
+    "question": "任务342111被国家禁投过滤的次数是多少",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = '342111' AND filter_key = 'o_country_target'",
+    "question": "请问在任务342111中，国家禁投过滤被使用的次数有多少？",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = '342111' AND filter_key = 'o_country_target'",
+    "question": "任务342111被国家禁投过滤了多少次",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = '342111' AND filter_key = 'o_country_target'",
+    "question": "country blocked filtering count for task 342111？",
+    "language": "en",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT COUNT(*) AS count FROM pre_ranking_filter_log WHERE task = '342111' AND filter_key = 'o_country_target'",
+    "question": "count country blocked filtering of the task 342111？",
+    "language": "en",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT DISTINCT t2.filter_stage_zh FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111",
+    "question": "任务342111在那些阶段被过滤？",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT DISTINCT t2.filter_stage_zh FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111",
+    "question": "在任务342111中，过滤阶段有那些？",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT DISTINCT t2.filter_stage_zh FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111",
+    "question": "任务342111的过滤阶段",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT DISTINCT t2.filter_stage_zh FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111",
+    "question": "任务342111有那几个过滤阶段？",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT DISTINCT t2.filter_stage FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111",
+    "question": "Task 342111 is filtered in what stages？",
+    "language": "en",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT DISTINCT t2.filter_stage FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111",
+    "question": "In task 342111, what are the filtering stages?",
+    "language": "en",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT DISTINCT t2.filter_stage FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111",
+    "question": "Filter stage for task 342111",
+    "language": "en",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT DISTINCT t2.filter_stage FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111",
+    "question": "what filtering stages does task 342111 have?",
+    "language": "en",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT DISTINCT t2.filter_type_zh FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111",
+    "question": "Task 342111 is filtered in what types？",
+    "language": "en",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT DISTINCT t2.filter_type_zh FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111",
+    "question": "In task 342111, what are the filtering types?",
+    "language": "en",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT DISTINCT t2.filter_type_zh FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111",
+    "question": "Filtering types for task 342111",
+    "language": "en",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT DISTINCT t2.filter_type_zh FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111",
+    "question": "what filtering type does task 342111 have?",
+    "language": "en",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT t2.filter_type_zh, count(*) as n FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111 group by t2.filter_type_zh",
+    "question": "任务342111的每种过滤类型数量？",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT t2.filter_type_zh, count(*) as n FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111 group by t2.filter_type_zh",
+    "question": "任务342111的过滤类型数量？",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT t2.filter_type_zh, count(*) as n FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111 group by t2.filter_type_zh",
+    "question": "任务342111的各种过滤类型数量？",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT t2.filter_type_zh, count(*) as n FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111 group by t2.filter_type_zh",
+    "question": "请问任务342111中各种过滤类型的数量是多少？",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT t2.filter_type_zh, count(*) as n FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111 group by t2.filter_type_zh",
+    "question": "342111任务的各种过滤类型数量如何？",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT t2.filter_type_zh, count(*) as n FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111 group by t2.filter_type_zh",
+    "question": "各种过滤类型在任务342111中的数量是多少？",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT t2.filter_type_zh, count(*) as n FROM pre_ranking_filter_log t1 JOIN pre_ranking_filter_key_mapping t2 ON t1.filter_key = t2.filter_key WHERE t1.task = 342111 group by t2.filter_type_zh",
+    "question": "任务342111的各种过滤类型分别占据了多少？",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "Select task_id, avg_ctr From predicted_metric_log where task_id in (select distinct task_id From request_log where request_id in (select distinct request_id from request_log where task_id = 342112))",
+    "question": "和任务342111有相同请求任务的ctr？",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "Select task_id, avg_ctr From predicted_metric_log where task_id in (select distinct task_id From request_log where request_id in (select distinct request_id from request_log where task_id = 342112))",
+    "question": "有相同请求代表相同个环境，和任务342111在相同环境下所有任务的ctr？",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "Select task_id, avg_ctr From predicted_metric_log where task_id in (select distinct task_id From request_log where request_id in (select distinct request_id from request_log where task_id = 342112))",
+    "question": "show me the ctr of tasks having same requests of task 342112",
+    "language": "en",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select task_id, avg(avg_ctr) from predicted_metric_log where task_id in (select distinct task_id from request_log where request_id in (select distinct request_id from request_log where task_id = 342112)) group by task_id",
+    "question": "和任务342111有相同请求任务的平均ctr？",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select task_id, avg(avg_ctr) from predicted_metric_log where task_id in (select distinct task_id from request_log where request_id in (select distinct request_id from request_log where task_id = 342112)) group by task_id",
+    "question": "任务有相同请求代表相同环境下，和任务342111在相同环境下所有任务的ctr？",
+    "language": "zh",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select task_id, avg(avg_ctr) from predicted_metric_log where task_id in (select distinct task_id from request_log where request_id in (select distinct request_id from request_log where task_id = 342112)) group by task_id",
+    "question": "show me the ctr of tasks having same requests of task 342112",
+    "language": "en",
+    "case_type": "multi_tables"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select task_id, RANK() OVER(ORDER BY avg_cvr) RANK from predicted_metric_log where date(date)='2023-01-12'",
+    "question": "12日任务的cvr排名？",
+    "language": "zh",
+    "case_type": "rank"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select task_id, RANK() OVER(ORDER BY avg_cvr) RANK from predicted_metric_log where date(date)='2023-01-12'",
+    "question": "任务在12日的cvr排名",
+    "language": "zh",
+    "case_type": "rank"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select task_id, RANK() OVER(ORDER BY avg_cvr) RANK from predicted_metric_log where date(date)='2023-01-12'",
+    "question": "CVR ranking of tasks on the 12th",
+    "language": "en",
+    "case_type": "rank"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT task_id, AVG(avg_cvr) as avg_cvr FROM predicted_metric_log WHERE date(date) = '2023-01-12' GROUP BY task_id ORDER BY avg_cvr DESC LIMIT 1;",
+    "question": "12日cvr排名最高的任务？",
+    "language": "zh",
+    "case_type": "rank"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT task_id, AVG(avg_cvr) as avg_cvr FROM predicted_metric_log WHERE date(date) = '2023-01-12' GROUP BY task_id ORDER BY avg_cvr DESC LIMIT 1;",
+    "question": "那个任务在12日的cvr排名最高",
+    "language": "zh",
+    "case_type": "rank"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT task_id, AVG(avg_cvr) as avg_cvr FROM predicted_metric_log WHERE date(date) = '2023-01-12' GROUP BY task_id ORDER BY avg_cvr DESC LIMIT 1;",
+    "question": "which task having the highest CVR on the 12th",
+    "language": "en",
+    "case_type": "rank"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT task_id, AVG(avg_cvr) as avg_cvr FROM predicted_metric_log WHERE date(date) = '2023-01-12' GROUP BY task_id ORDER BY avg_cvr DESC LIMIT 1;",
+    "question": "find the task having the highest CVR on the 12th",
+    "language": "en",
+    "case_type": "rank"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT task_id, AVG(avg_cvr) as avg_cvr FROM predicted_metric_log WHERE date(date) = '2023-01-12' GROUP BY task_id ORDER BY avg_cvr DESC LIMIT 10;",
+    "question": "12日cvr排名前10的任务？",
+    "language": "zh",
+    "case_type": "rank"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT task_id, AVG(avg_cvr) as avg_cvr FROM predicted_metric_log WHERE date(date) = '2023-01-12' GROUP BY task_id ORDER BY avg_cvr DESC LIMIT 10;",
+    "question": "那些任务在12日的cvr排名前10",
+    "language": "zh",
+    "case_type": "rank"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT task_id, AVG(avg_cvr) as avg_cvr FROM predicted_metric_log WHERE date(date) = '2023-01-12' GROUP BY task_id ORDER BY avg_cvr DESC LIMIT 10;",
+    "question": "CVR ranking top 10 tasks on the 12th",
+    "language": "en",
+    "case_type": "rank"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT task_id, AVG(avg_cvr) as avg_cvr FROM predicted_metric_log WHERE date(date) = '2023-01-12' GROUP BY task_id ORDER BY avg_cvr DESC LIMIT 10;",
+    "question": "top 10 ranking of the highest CVR tasks on the 12th",
+    "language": "en",
+    "case_type": "rank"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT task_id, AVG(avg_cvr) as avg_cvr FROM predicted_metric_log WHERE date(date) = '2023-01-12' GROUP BY task_id ORDER BY avg_cvr DESC LIMIT 10;",
+    "question": "the top 10 highest CVR tasks on the 12th",
+    "language": "en",
+    "case_type": "rank"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT task_id, AVG(avg_cvr) as avg_cvr FROM predicted_metric_log WHERE date(date) = '2023-01-12' GROUP BY task_id ORDER BY avg_cvr ASC LIMIT 10",
+    "question": "12日cvr排名后10的任务？",
+    "language": "zh",
+    "case_type": "rank"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT task_id, AVG(avg_cvr) as avg_cvr FROM predicted_metric_log WHERE date(date) = '2023-01-12' GROUP BY task_id ORDER BY avg_cvr ASC LIMIT 10",
+    "question": "那些任务在12日的cvr排名后10",
+    "language": "zh",
+    "case_type": "rank"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT task_id, AVG(avg_cvr) as avg_cvr FROM predicted_metric_log WHERE date(date) = '2023-01-12' GROUP BY task_id ORDER BY avg_cvr ASC LIMIT 10",
+    "question": "CVR ranking bottom 10 tasks on the 12th",
+    "language": "en",
+    "case_type": "rank"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT task_id, AVG(avg_cvr) as avg_cvr FROM predicted_metric_log WHERE date(date) = '2023-01-12' GROUP BY task_id ORDER BY avg_cvr ASC LIMIT 10",
+    "question": "the top 10 tasks with lowest CVR on the 12th",
+    "language": "en",
+    "case_type": "rank"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT task_id, AVG(avg_cvr) as avg_cvr FROM predicted_metric_log WHERE date(date) = '2023-01-12' GROUP BY task_id ORDER BY avg_cvr ASC LIMIT 10",
+    "question": "the 10 lowest CVR tasks on the 12th",
+    "language": "en",
+    "case_type": "rank"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select filter_key, count(*) as n from pre_ranking_filter_log where task = 342111 group by filter_key) SELECT filter_key, n, n*100.0/(select sum(n) from t1) FROM t1",
+    "question": "任务342111的每种过滤值比例？",
+    "language": "zh",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select filter_key, count(*) as n from pre_ranking_filter_log where task = 342111 group by filter_key) SELECT filter_key, n, n*100.0/(select sum(n) from t1) FROM t1",
+    "question": "任务342111的每种过滤值占比？",
+    "language": "zh",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select filter_key, count(*) as n from pre_ranking_filter_log where task = 342111 group by filter_key) SELECT filter_key, n, n*100.0/(select sum(n) from t1) FROM t1",
+    "question": "任务342111的各种过滤值占比？",
+    "language": "zh",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select filter_key, count(*) as n from pre_ranking_filter_log where task = 342111 group by filter_key) SELECT filter_key, n, n*100.0/(select sum(n) from t1) FROM t1",
+    "question": "请问任务342111中各种过滤值的比例是多少？",
+    "language": "zh",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select filter_key, count(*) as n from pre_ranking_filter_log where task = 342111 group by filter_key) SELECT filter_key, n, n*100.0/(select sum(n) from t1) FROM t1",
+    "question": "任务342111中的各种过滤值所占比例是多少？",
+    "language": "zh",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select filter_key, count(*) as n from pre_ranking_filter_log where task = 342111 group by filter_key) SELECT filter_key, n, n*100.0/(select sum(n) from t1) FROM t1",
+    "question": "342111任务的各种过滤值占比如何？",
+    "language": "zh",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select filter_key, count(*) as n from pre_ranking_filter_log where task = 342111 group by filter_key) SELECT filter_key, n, n*100.0/(select sum(n) from t1) FROM t1",
+    "question": "各种过滤值在任务342111中所占比例是多少？",
+    "language": "zh",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select filter_key, count(*) as n from pre_ranking_filter_log where task = 342111 group by filter_key) SELECT filter_key, n, n*100.0/(select sum(n) from t1) FROM t1",
+    "question": "任务342111的各种过滤值分别占据了多大的比例？",
+    "language": "zh",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select filter_key, count(*) as n from pre_ranking_filter_log where task = 342111 group by filter_key) SELECT filter_key, n, n*100.0/(select sum(n) from t1) FROM t1",
+    "question": "the percentage of each filter count for task 342111？",
+    "language": "en",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select filter_key, count(*) as n from pre_ranking_filter_log where task = 342111 group by filter_key) SELECT filter_key, n, n*100.0/(select sum(n) from t1) FROM t1",
+    "question": "What is the percentage breakdown of each filter count for task 342111?",
+    "language": "en",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select filter_key, count(*) as n from pre_ranking_filter_log where task = 342111 group by filter_key) SELECT filter_key, n, n*100.0/(select sum(n) from t1) FROM t1",
+    "question": "Can you provide the proportion of each filter count for task 342111 as a percentage?",
+    "language": "en",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select filter_key, count(*) as n from pre_ranking_filter_log where task = 342111 group by filter_key) SELECT filter_key, n, n*100.0/(select sum(n) from t1) FROM t1",
+    "question": "I'm interested in knowing the distribution of each filter count for task 342111 by percentage.",
+    "language": "en",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select filter_key, count(*) as n from pre_ranking_filter_log where task = 342111 group by filter_key) SELECT filter_key, n, n*100.0/(select sum(n) from t1) FROM t1",
+    "question": "What is the breakdown of filter counts for task 342111 in terms of percentages?",
+    "language": "en",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select filter_key, count(*) as n from pre_ranking_filter_log where task = 342111 group by filter_key) SELECT filter_key, n, n*100.0/(select sum(n) from t1) FROM t1",
+    "question": "Can you provide me with the percentage distribution of each filter count for task 342111?",
+    "language": "en",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select filter_key, count(*) as n from pre_ranking_filter_log where task = 342111 group by filter_key) SELECT filter_key, n, n*100.0/(select sum(n) from t1) FROM t1",
+    "question": "How are the filter counts for task 342111 distributed as percentages for each filter?",
+    "language": "en",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "WITH t1 AS (select filter_key, count(*) as n from pre_ranking_filter_log where task = 342111 group by filter_key) SELECT filter_key, n, n*100.0/(select sum(n) from t1) FROM t1",
+    "question": "Could you tell me the percentage of each filter count for task 342111?",
+    "language": "en",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*)*100.0 /(select count(*) from pre_ranking_filter_log where task=342111) from pre_ranking_filter_log where task=342111 and filter_key='o_rta_filter'",
+    "question": "任务342111的RTA过滤占比？",
+    "language": "zh",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*)*100.0 /(select count(*) from pre_ranking_filter_log where task=342111) from pre_ranking_filter_log where task=342111 and filter_key='o_rta_filter'",
+    "question": "任务342111的RTA过滤比例是多少？",
+    "language": "zh",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*)*100.0 /(select count(*) from pre_ranking_filter_log where task=342111) from pre_ranking_filter_log where task=342111 and filter_key='o_rta_filter'",
+    "question": "任务342111中RTA过滤的百分比是多少？",
+    "language": "zh",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*)*100.0 /(select count(*) from pre_ranking_filter_log where task=342111) from pre_ranking_filter_log where task=342111 and filter_key='o_rta_filter'",
+    "question": "求342111任务的RTA过滤率是多少？",
+    "language": "zh",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*)*100.0 /(select count(*) from pre_ranking_filter_log where task=342111) from pre_ranking_filter_log where task=342111 and filter_key='o_rta_filter'",
+    "question": "342111任务的RTA过滤占比是多少？",
+    "language": "zh",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*)*100.0 /(select count(*) from pre_ranking_filter_log where task=342111) from pre_ranking_filter_log where task=342111 and filter_key='o_rta_filter'",
+    "question": "the percentage of RTA filter count for task 342111",
+    "language": "en",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*)*100.0 /(select count(*) from pre_ranking_filter_log where task=342111) from pre_ranking_filter_log where task=342111 and filter_key='o_rta_filter'",
+    "question": "the percentage of RTA filter for task 342111",
+    "language": "en",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*)*100.0 /(select count(*) from pre_ranking_filter_log where task=342111) from pre_ranking_filter_log where task=342111 and filter_key='o_rta_filter'",
+    "question": "the RTA filter percentage of task 342111",
+    "language": "en",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*)*100.0 /(select count(*) from pre_ranking_filter_log where task=342111) from pre_ranking_filter_log where task=342111 and filter_key='o_rta_filter'",
+    "question": "the RTA filter percentage of the task 342111",
+    "language": "en",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select count(*)*100.0 /(select count(*) from pre_ranking_filter_log where task=342111) from pre_ranking_filter_log where task=342111 and filter_key='o_rta_filter'",
+    "question": "what is the RTA filter percentage of the task 342111",
+    "language": "en",
+    "case_type": "percentage"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select DISTINCT filter_type_zh from pre_ranking_filter_key_mapping",
+    "question": "有那些不同过滤类型？",
+    "language": "zh",
+    "case_type": "language"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select DISTINCT filter_type_zh from pre_ranking_filter_key_mapping",
+    "question": "都有什么不同过滤类型？",
+    "language": "zh",
+    "case_type": "language"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select DISTINCT filter_stage from pre_ranking_filter_key_mapping",
+    "question": "distinct filter stages",
+    "language": "en",
+    "case_type": "language"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select DISTINCT filter_stage from pre_ranking_filter_key_mapping",
+    "question": "what are unique filter stages",
+    "language": "en",
+    "case_type": "language"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT filter_key_en FROM pre_ranking_filter_key_mapping WHERE filter_key_zh='国家禁投'",
+    "question": "国家禁投的英文是什么",
+    "language": "en",
+    "case_type": "language"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT filter_key_en FROM pre_ranking_filter_key_mapping WHERE filter_key_zh='国家禁投'",
+    "question": "国家禁投 的英文",
+    "language": "en",
+    "case_type": "language"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT filter_key_en FROM pre_ranking_filter_key_mapping WHERE filter_key_zh='国家禁投'",
+    "question": "‘国家禁投’ in english",
+    "language": "en",
+    "case_type": "language"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT filter_key_zh FROM pre_ranking_filter_key_mapping WHERE filter_key = 'o_country_target'",
+    "question": "o_country_target 的中文是什么",
+    "language": "zh",
+    "case_type": "language"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT filter_key_zh FROM pre_ranking_filter_key_mapping WHERE filter_key = 'o_country_target'",
+    "question": "o_country_target 中文什么意思",
+    "language": "zh",
+    "case_type": "language"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "SELECT filter_key_zh FROM pre_ranking_filter_key_mapping WHERE filter_key = 'o_country_target'",
+    "question": "o_country_target 是什么意思",
+    "language": "zh",
+    "case_type": "language"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select DISTINCT filter_key FROM pre_ranking_filter_key_mapping",
+    "question": "distinct filter keys",
+    "language": "en",
+    "case_type": "language"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select DISTINCT filter_key FROM pre_ranking_filter_key_mapping",
+    "question": "what are unique filter keys",
+    "language": "en",
+    "case_type": "language"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select DISTINCT filter_key_zh FROM pre_ranking_filter_key_mapping",
+    "question": "有那些不同过滤键？",
+    "language": "zh",
+    "case_type": "language"
+  },
+  {
+    "db_id": "benchmark_1",
+    "query": "select DISTINCT filter_key_zh FROM pre_ranking_filter_key_mapping",
+    "question": "列出所有不同的过滤键",
+    "language": "zh",
+    "case_type": "language"
+  }
+]
