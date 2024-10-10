@@ -1,69 +1,69 @@
 [
   {
-    "db_id": "benchmark_2",
+    "db_id": "dataset_2",
     "query": "select avg('cpu_util') from cpu where ip='10.11.110.1'",
     "question": "主机10.11.110.1的CPU使用率？",
     "language": "zh",
     "case_type": "filtering"
   },
   {
-    "db_id": "benchmark_2",
+    "db_id": "dataset_2",
     "query": "select avg('cpu_util') from cpu where ip='10.11.110.1'",
     "question": "节点10.11.110.1的CPU使用率",
     "language": "zh",
     "case_type": "filtering"
   },
   {
-    "db_id": "benchmark_2",
+    "db_id": "dataset_2",
     "query": "select avg('cpu_util') from cpu where ip='10.11.110.1'",
     "question": "主机10.11.110.1的CPU状态",
     "language": "zh",
     "case_type": "filtering"
   },
   {
-    "db_id": "benchmark_2",
+    "db_id": "dataset_2",
     "query": "select avg('cpu_util') from cpu where ip='10.11.110.1'",
     "question": "ip 10.11.110.1的CPU使用率",
     "language": "zh",
     "case_type": "filtering"
   },
   {
-    "db_id": "benchmark_2",
+    "db_id": "dataset_2",
     "query": "select avg('cpu_util') from cpu where (ip='10.11.110.1' or ip='10.11.110.2')",
     "question": "主机10.11.110.1 10.11.110.2 的CPU使用率？",
     "language": "zh",
     "case_type": "filtering"
   },
   {
-    "db_id": "benchmark_2",
+    "db_id": "dataset_2",
     "query": "select avg('cpu_util') from cpu where (ip='10.11.110.1' or ip='10.11.110.2')",
     "question": "ip 10.11.110.1 10.11.110.2 的平均CPU使用率？",
     "language": "zh",
     "case_type": "filtering"
   },
   {
-    "db_id": "benchmark_2",
+    "db_id": "dataset_2",
     "query": "select avg('cpu_util') from cpu where ip='10.11.110.1' and date(timestamp)='2023-01-12'",
     "question": "1月12日主机10.11.110.1的CPU使用率？",
     "language": "zh",
     "case_type": "time_period"
   },
   {
-    "db_id": "benchmark_2",
+    "db_id": "dataset_2",
     "query": "select avg('cpu_util') from cpu where ip='10.11.110.1' and date(timestamp)='2023-01-12'",
     "question": "cpu util of ip 10.11.110.1 on 12 January",
     "language": "en",
     "case_type": "time_period"
   },
   {
-    "db_id": "benchmark_2",
+    "db_id": "dataset_2",
     "query": "select avg('cpu_util') from cpu where ip='10.11.110.1' and date(timestamp)='2023-01-12'",
     "question": "show me cpu util of ip 10.11.110.1 on 12th January",
     "language": "en",
     "case_type": "time_period"
   },
   {
-    "db_id": "benchmark_2",
+    "db_id": "dataset_2",
     "query": "select avg('cpu_util') from cpu where ip='10.11.110.1' and date(timestamp)='2023-01-12'",
     "question": "cpu util of ip 10.11.110.1 on 12-01",
     "language": "en",

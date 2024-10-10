@@ -30,10 +30,10 @@ if __name__ == "__main__":
     evaluate a predicted sql for question 1 based on sql result to get a score
     """
 
-    questions_benchmark = pd.read_json("./benchmark1/questions_benchmark_1.json")
+    questions_benchmark = pd.read_json("./dataset1/questions_dataset_1.json")
 
     # load database
-    sqldb = sqlite_conn.SqliteDB("./benchmark1/benchmark_1.sqlite3")
+    sqldb = sqlite_conn.SqliteDB("./dataset1/dataset_1.sqlite3")
 
     # this is the predicted sql by our model.
     predicted_sql = '''

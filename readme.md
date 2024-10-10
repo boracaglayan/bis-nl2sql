@@ -1,8 +1,8 @@
 ## File definitions
 
-Benchmark1 contain realistic data with question/query pairs in zh and en.
+Dataset1 is business operation dataset for AD task management.
 
-Benchmark2 is smaller operations data and for test purposes only.
+Dataset2 is smaller operations data and for system operation and infrastructure management.
 
 Files:
 1 - *.sqlite3 for sqlite database with sample data
