@@ -2,7 +2,7 @@
 
 Dataset1 is business operation dataset for AD task management.
 
-Dataset2 is smaller operations data and for system operation and infrastructure management.
+Dataset2 is smaller operations dataset for system operation and infrastructure management.
 
 Files:
 1 - *.sqlite3 for sqlite database with sample data
